@@ -9,7 +9,7 @@ Static site, no build step. Deploy as-is on Vercel.
 
 ## Edit
 Everything lives in `index.html`. Search for these near the top of the `<script>`:
-- `CONFIG` — email, WhatsApp number, Fiverr/Upwork/LinkedIn/GitHub links (empty links are hidden).
+- `CONFIG` — email, WhatsApp number, 
 - `PROJECTS` — the 6 rooms. Replace title, description, tech, result, liveUrl, and set `sample:false`.
 - `IMGS` — points to files in `assets/projects/`. Overwrite them with your real screenshots
   (same file names; 16:9 landscape ~1280x720; `frame0-2` are 9:16 portrait) or change the paths.
